@@ -8,8 +8,8 @@ const Hero = ({heroData, headerData, navData}) => {
   const { title, boyImg, girlImg, truckImg, btnText } = heroData
   
   return (
-    <section className='bg-hero bg-no-repeat bg-left-top min-h-[800px] 
-    lg:min-h-[950px] lg:mb-80'>
+    <section className='bg-hero bg-cover bg-no-repeat bg-left-top min-h-[800px] 
+    lg:min-h-[950px] lg:mb-60'>
       <motion.div 
         variants={staggerContainer} 
         initial='initial'
@@ -29,7 +29,7 @@ const Hero = ({heroData, headerData, navData}) => {
         </motion.div>
         <motion.div 
           variants={heroTruckAnim}
-          className='hidden lg:flex absolute -bottom-[25%] -left-[30%]'>
+          className='hidden lg:flex absolute -bottom-[32%] -left-[30%]'>
           <Image src={truckImg} width={811} height={395} />
         </motion.div>
         <motion.div 

@@ -18,7 +18,7 @@
     @apply font-serif;
   }
   .h1 {
-    @apply text-[68px] lg:text-[100px] leading-none;
+    @apply text-[68px] lg:text-[89px] leading-none;
   }
   .h2 {
     @apply text-[36px] lg:text-[48px] leading-[140%];

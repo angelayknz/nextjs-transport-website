@@ -2,8 +2,8 @@ export const staggerContainer = {
   initial: {},
   animate: {
     transition: {
-      staggerChildren: 0.6,
-      delayChildren: 0.6,
+      staggerChildren: 0.3,
+      delayChildren: 0.3,
     },
   },
 };
@@ -22,7 +22,7 @@ export const staggerAccordionContainer = {
   initial: {},
   animate: {
     transition: {
-      staggerChildren: 0.06,
+      staggerChildren: 0,
       delayChildren: 0.2,
       type: 'tween',
     },
@@ -33,7 +33,7 @@ export const staggerFooterContainer = {
   initial: {},
   animate: {
     transition: {
-      staggerChildren: 0.6,
+      staggerChildren: 0.2,
       delayChildren: 0.3,
     },
   },
